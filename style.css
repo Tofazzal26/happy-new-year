@@ -45,7 +45,7 @@
     color: #FFF;
     margin: 0 auto;
     text-align: center;
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -332,41 +332,43 @@
 
 }
 
-.holidays-sales .holiday-images .rectangle1 {
+
+.images-content {
     position: relative;
-    top: 0;
-    left: 0;
-    margin-left: 63.1rem;
+    margin-top: 80px;
 }
 
 
 
-.holidays-sales .holiday-images .rectangle2 {
+.images-content .shop-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.images-content .shop-img img{
+    z-index: 100;
+}
+
+
+.images-content .shop-img .discount-img .discount{
     position: absolute;
-    left: 0px;
-    margin-left: 70px;
-    margin-top: 60px;
-    margin-left: 73rem;
-}
-
-.holidays-sales .holiday-images {
-    margin-top: 65px;
+    top: 70px;
+    left: 48rem;
 }
 
 
-.holidays-sales .footer-img .footer1 {
+.images-content .discount-footer {
     position: absolute;
-    z-index: 1000;
-    height: 300px;
-    width: 500px;
-    padding-left: 8rem;
+    top: 432px;
 }
 
-.holidays-sales .footer-img .footer2 {
-    position: relative;
-    width: 100%;
-    
+.images-content .discount-footer img{
+    width: 1387px;
 }
+
+
 
 
     /* our awesome portfolio */
@@ -582,3 +584,7 @@
 .container .social-media{
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+
+
+/* all section finally finish */
