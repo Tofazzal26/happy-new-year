@@ -92,10 +92,72 @@
 
 /* welcome section start */
 
+.container .welcome-img{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/images/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+
+.welcome-text {
+    background-image: url('/images/Group\ 70.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 140px;
+}
+
+
+.container .welcome-img .welcome-text h1{
+    width: 642px;
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+
+.container .welcome-img .welcome-text p{
+    width: 695px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+
+.container .welcome-img .welcome-text *{
+    margin-bottom: 40px;
+}
+
+.container .welcome-img .welcome-text {
+    padding: 125px;
+}
+
+
+.container .welcome-img .welcome-text button{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 
 
 
 
+
+/* part hotel section start */
 
 
 
