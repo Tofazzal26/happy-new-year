@@ -197,6 +197,11 @@
     text-transform: uppercase;
     border: none;
     cursor: pointer;
+    transition: .5s;
+}
+
+.container .new-parkhotel button:hover{
+    transform: scale(1.1);
 }
 
 
@@ -479,7 +484,7 @@
     width: 480px;
     height: 75px;
     padding: 30px;
-    color: rgba(7, 2, 17, 0.30);
+    color: rgba(7, 2, 17, 0.50);
     margin-top: 45px;
     font-family: 'Inter';
     font-size: 18px;
@@ -493,6 +498,87 @@
     /* footer section start */
 
 
+.container .footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-backgrund {
+    background-color: #070211;
+    margin-top: 120px;
+}
+
+.container .footer-content .footer-icon{
+    display: flex;
+}
 
 
 
+.container .footer-content .footer-tex h2{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.container .footer-content .icon-tex h2{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    align-items: center;
+}
+
+.container .footer-content .icon-tex h2 img{
+    margin-right: 10px;
+}
+
+
+.container .footer-content {
+    padding: 100px 0px;
+}
+
+.container .social-media .social-icon{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+.container .social-media .social-icon img{
+    padding: 0px 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container .social-media .social-icon img:hover{
+    transform: scale(1.1);
+}
+
+.container .unscribe-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    color: #FFF;
+}
+
+
+.container .unscribe-content .unscribe-text h2{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+
+.container .footer-content{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.container .social-media{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
